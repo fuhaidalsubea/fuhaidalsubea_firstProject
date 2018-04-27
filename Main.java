@@ -14,5 +14,6 @@ public class Main {
 			System.out.println("Reversible: " + Expr.reversible(dq, i) + "\n");
 		}
 	}
+	System.out.println("fuhaidalsubea")
 
 }
