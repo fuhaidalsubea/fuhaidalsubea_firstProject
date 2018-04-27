@@ -4,6 +4,7 @@ public class Main {
 		DQueue<Character>[] dq = Expr.readExpressions("input/test.txt");
 		for (int i = 0; i < dq.length && dq[i] != null; i++) {
 			int size = dq[i].length();
+			// import commnt about for loop
 			for (int j = 0; j < size; j++) {
 				char c = dq[i].removeFirst();
 				dq[i].addLast(c);
